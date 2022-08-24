@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hide.css">
+</head>
+
+<body>
+    <center>
+        <div id="bck">
+            <h2 id="nav">Stop Watch</h2>
+            <h2 id="time"></h2>
+            <h2 id="stopwatch"></h2>
+            <button onclick="pause()">Start/Pause</button><br><br>
+            <button onclick="reset()">Reset</button>
+            <br>
+        </div>
+        <br>
+        <div id="hji">
+            <img id="myImg" src="./img/1.jpg" width="270" height="178" alt="" onclick="toggleHide(event)">
+            <img id="myImg" src="./img/2.jpg" width="270" alt="" onclick="toggleHide(event)">
+            <img id="myImg" src="./img/3.jpg" width="270" alt="" onclick="toggleHide(event)">
+            <img id="myImg" src="./img/4.jpg" width="270" alt="" onclick="toggleHide(event)">
+        </div>
+        <p id="myPara" style="color: white;"> </p>
+    </center>
+
+    <Script src="hide.js"></Script>
+    <!-- <button onclick="stopInterval()">stopInterval</button> -->
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?watches');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2#nav {
+    background-color: rgba(235, 18, 18, 0.564);
+}
+
+div#bck {
+    border: 1px solid black;
+    width: 180px;
+    padding: 8px;
+    background-color: rgba(92, 205, 167, 0.931);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+button {
+    background-color: rgba(56, 56, 114, 0.865);
+    color: aliceblue;
+    width: 120px;
+    height: 25px;
+    font-size: large;
+    border-radius: 7px;
+    box-shadow: 5px 6px 8px black;
+}
+
+div#hji {
+    width: 550px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+@media (max-width:370px) {
+    #hji {
+        padding: 60px;
+        width: 20px;
+        margin: 20px;
+    }
+
+    img {
+        width: 450px;
+    }
+
+}
